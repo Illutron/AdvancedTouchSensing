@@ -23,7 +23,7 @@
 
 
 
-#define N 150  //How many frequencies
+#define N 160  //How many frequencies
 
 float results[N];            //-Filtered result buffer
 float freq[N];            //-Filtered result buffer
@@ -76,7 +76,7 @@ void loop()
 
 
 PlottArray(1,freq,results); 
-  
+ 
 
   TOG(PORTB,0);            //-Toggle pin 8 after each sweep (good for scope)
 }

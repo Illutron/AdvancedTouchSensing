@@ -60,7 +60,7 @@
       delay(1);
       for(int x=0;  x < sizeOfArray;  x++){     // Send the arrays 
         SendData(Cmd, round(Array1[x]),round(Array2[x]));
-     //   delay(1);
+        //delay(1);
       }
       
       SendData(Cmd+2, 1,1);                        // Confirm arrrays have been sent
